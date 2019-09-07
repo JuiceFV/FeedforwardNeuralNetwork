@@ -19,7 +19,7 @@ public:
 	double get_output_value() const;
 	void feed_forward(const layer &previous_layer);
 	void calculate_output_gradients(double target_value);
-	void calculate_hdden_gradients(const layer &next_layer);
+	void calculate_hidden_gradients(const layer &next_layer);
 	void update_input_weights(layer &previous_layer);
 private:
 	static double eta;

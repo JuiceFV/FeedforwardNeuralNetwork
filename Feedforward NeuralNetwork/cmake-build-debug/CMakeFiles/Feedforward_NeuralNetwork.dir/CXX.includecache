@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/main.cpp
+iostream
+-
+
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.cpp
+neuron.h
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
+cmath
+-
+
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
+vector
+-
+

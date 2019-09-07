@@ -85,6 +85,12 @@
 		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/main.cpp">
 			<Option target="Feedforward_NeuralNetwork"/>
 		</Unit>
+		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.cpp">
+			<Option target="Feedforward_NeuralNetwork"/>
+		</Unit>
+		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.h">
+			<Option target="Feedforward_NeuralNetwork"/>
+		</Unit>
 		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.cpp">
 			<Option target="Feedforward_NeuralNetwork"/>
 		</Unit>

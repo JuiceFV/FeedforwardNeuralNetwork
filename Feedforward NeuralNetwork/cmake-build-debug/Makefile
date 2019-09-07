@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+network.o: network.cpp.o
+
+.PHONY : network.o
+
+# target to build an object file
+network.cpp.o:
+	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/network.cpp.o
+.PHONY : network.cpp.o
+
+network.i: network.cpp.i
+
+.PHONY : network.i
+
+# target to preprocess a source file
+network.cpp.i:
+	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/network.cpp.i
+.PHONY : network.cpp.i
+
+network.s: network.cpp.s
+
+.PHONY : network.s
+
+# target to generate assembly for a file
+network.cpp.s:
+	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/network.cpp.s
+.PHONY : network.cpp.s
+
 neuron.o: neuron.cpp.o
 
 .PHONY : neuron.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... network.o"
+	@echo "... network.i"
+	@echo "... network.s"
 	@echo "... neuron.o"
 	@echo "... neuron.i"
 	@echo "... neuron.s"
