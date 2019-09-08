@@ -7,7 +7,23 @@
 #IncludeRegexTransform: 
 
 /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/main.cpp
-iostream
+training_set.h
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.h
+network.h
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.h
+neuron.h
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
+
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.cpp
+training_set.h
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.h
+network.h
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.h
+
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.h
+neuron.h
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
+vector
 -
 
 /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.cpp
@@ -18,5 +34,21 @@ cmath
 
 /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
 vector
+-
+
+/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.h
+vector
+-
+iostream
+-
+cstdlib
+-
+cassert
+-
+cmath
+-
+fstream
+-
+sstream
 -
 

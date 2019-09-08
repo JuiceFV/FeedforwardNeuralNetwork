@@ -97,6 +97,12 @@
 		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h">
 			<Option target="Feedforward_NeuralNetwork"/>
 		</Unit>
+		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.cpp">
+			<Option target="Feedforward_NeuralNetwork"/>
+		</Unit>
+		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.h">
+			<Option target="Feedforward_NeuralNetwork"/>
+		</Unit>
 		<Unit filename="/Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

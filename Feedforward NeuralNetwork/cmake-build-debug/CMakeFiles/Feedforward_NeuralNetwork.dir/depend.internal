@@ -3,6 +3,17 @@
 
 CMakeFiles/Feedforward_NeuralNetwork.dir/main.cpp.o
  /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/main.cpp
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.h
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.h
+CMakeFiles/Feedforward_NeuralNetwork.dir/network.cpp.o
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.cpp
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/network.h
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.h
 CMakeFiles/Feedforward_NeuralNetwork.dir/neuron.cpp.o
  /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.cpp
  /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/neuron.h
+CMakeFiles/Feedforward_NeuralNetwork.dir/training_set.cpp.o
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.cpp
+ /Users/cspider/Desktop/neural_network/Feedforward NeuralNetwork/training_set.h

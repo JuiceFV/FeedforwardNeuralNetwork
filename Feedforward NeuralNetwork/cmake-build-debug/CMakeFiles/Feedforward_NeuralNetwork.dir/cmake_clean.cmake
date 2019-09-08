@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Feedforward_NeuralNetwork.dir/main.cpp.o"
   "CMakeFiles/Feedforward_NeuralNetwork.dir/neuron.cpp.o"
   "CMakeFiles/Feedforward_NeuralNetwork.dir/network.cpp.o"
+  "CMakeFiles/Feedforward_NeuralNetwork.dir/training_set.cpp.o"
   "Feedforward_NeuralNetwork.pdb"
   "Feedforward_NeuralNetwork"
 )

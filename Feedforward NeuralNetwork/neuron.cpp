@@ -54,7 +54,6 @@ double neuron::activation_function(double x)
 {
 	//range of output is [-1.0 to 1.0]
 	return (tanh(x));
-	//TODO ELU (Exponential Linear Unit) or atanh or thanh or softmax
 }
 
 double neuron::activation_function_derivative(double x)

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/cspider/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Users/cspider/Desktop/IDE/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Users/cspider/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Users/cspider/Desktop/IDE/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/Users/cspider/Desktop/neural_network/Feedforward NeuralNetw
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Users/cspider/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/cspider/Desktop/IDE/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Users/cspider/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Users/cspider/Desktop/IDE/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -204,6 +204,33 @@ neuron.cpp.s:
 	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/neuron.cpp.s
 .PHONY : neuron.cpp.s
 
+training_set.o: training_set.cpp.o
+
+.PHONY : training_set.o
+
+# target to build an object file
+training_set.cpp.o:
+	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/training_set.cpp.o
+.PHONY : training_set.cpp.o
+
+training_set.i: training_set.cpp.i
+
+.PHONY : training_set.i
+
+# target to preprocess a source file
+training_set.cpp.i:
+	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/training_set.cpp.i
+.PHONY : training_set.cpp.i
+
+training_set.s: training_set.cpp.s
+
+.PHONY : training_set.s
+
+# target to generate assembly for a file
+training_set.cpp.s:
+	$(MAKE) -f CMakeFiles/Feedforward_NeuralNetwork.dir/build.make CMakeFiles/Feedforward_NeuralNetwork.dir/training_set.cpp.s
+.PHONY : training_set.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... neuron.o"
 	@echo "... neuron.i"
 	@echo "... neuron.s"
+	@echo "... training_set.o"
+	@echo "... training_set.i"
+	@echo "... training_set.s"
 .PHONY : help
 
 
