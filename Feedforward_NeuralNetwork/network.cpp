@@ -9,12 +9,13 @@ network::network(const std::vector<unsigned> &topology)
 	for (unsigned layer_num = 0; layer_num < number_of_layers; layer_num++)
 	{
 		layers.push_back(layer());
-		unsigned number_of_outputs = layer_num = topology.size() - 1 ? 0 : topology[layer_num + 1];
+		unsigned number_of_outputs = layer_num == topology.size() - 1 ? 0 : topology[layer_num + 1];
 
 		for (unsigned neuron_num = 0; neuron_num <= topology[layer_num]; neuron_num++)
 		{
-			layers.back().back().set_output_value(1.0);
+			layers.back().push_back(neuron(number_of_outputs, neuron_num));
 		}
+		layers.back().back().set_output_value(1.0);
 	}
 }
 

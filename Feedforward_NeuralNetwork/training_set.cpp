@@ -2,7 +2,7 @@
 
 training_set::training_set(const std::string file_name)
 {
-	training_data_file.open(file_name.c_str());
+	training_data_file.open(file_name);
 }
 
 bool training_set::is_eof()

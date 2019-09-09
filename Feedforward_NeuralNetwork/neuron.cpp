@@ -52,13 +52,40 @@ void neuron::calculate_output_gradients(double target_value)
 
 double neuron::activation_function(double x)
 {
-	//range of output is [-1.0 to 1.0]
+	/* tanges
 	return (tanh(x));
+	*/
+	
+
+	/* SoftExponential
+	if (alpha < 0)
+		return (-1 * (log(1 - alpha * (x + alpha)) / alpha));
+	else if (alpha == 0)
+		return (x);
+	else
+		return (((exp(alpha * x) - 1) / alpha) + alpha);
+		*/
+	if (x <= 0)
+		return (alpha * (exp(x) - 1));
+	else
+		return (x);
 }
 
 double neuron::activation_function_derivative(double x)
 {
+	/* tanges - deriv
 	return (1 - pow(x, 2));
+	*/
+	/* SoftExponential - deriv
+	if (alpha <  0)
+		return (1/(1 - alpha * (alpha + x)));
+	else
+		return (exp(alpha * x));
+		*/
+	if (x <= 0)
+		return (activation_function(x) + alpha);
+	else
+		return (1);
 }
 
 void neuron::feed_forward(const layer &previous_layer)
