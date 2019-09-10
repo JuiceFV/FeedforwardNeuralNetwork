@@ -1,3 +1,6 @@
+/*
+For training I used Gate NaNd values which stored in testData.txt
+*/
 #include "training_set.h"
 #include "network.h"
 #include "neuron.h"
@@ -44,5 +47,8 @@ int main()
 	}
 
 	std::cout << std::endl << "Done" << std::endl;
+#if defined(_MSC_VER) || defined(_WIN32)
+	system("pause");
+#endif
 	return (0);
 }
