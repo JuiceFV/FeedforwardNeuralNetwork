@@ -19,6 +19,8 @@ private:
 	//it's like matrix-array (layers[layer][neuron])
 	std::vector<layer> layers;
 	double error;
+	//its just helper for us 
+	//its an average value of network error
 	double recent_average_error;
 	static double recent_average_smoothing_factor;
 };

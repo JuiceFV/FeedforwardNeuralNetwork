@@ -21,6 +21,7 @@ public:
 	neuron(unsigned number_of_outputs, unsigned my_index);
 	void set_output_value(double value);
 	double get_output_value() const;
+	//feed-forward method for neurons
 	void feed_forward(const layer &previous_layer);
 	void calculate_output_gradients(double target_value);
 	void calculate_hidden_gradients(const layer &next_layer);
@@ -35,9 +36,11 @@ private:
 	//We'ill set random value in range [0;1] to the each last-created
 	//connection (weight field).
 	static double random_weight();
+	//nonlinear function (ELU)
 	static double activation_function(double x);
+	//derivative of nonlinear function for learning algorithm
 	static double activation_function_derivative(double x);
-	double sumDOW(const layer &next_layer) const;
+	double sum_derivative_of_weights(const layer &next_layer) const;
 	double output_value;
 	unsigned my_index;
 	double gradient;

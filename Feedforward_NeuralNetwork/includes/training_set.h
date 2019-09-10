@@ -1,3 +1,8 @@
+/*
+It's helper class that helps with file reading
+And topology feeding
+So I won't to explain what does this class do
+*/
 #pragma once
 #include <vector>
 #include <iostream>
