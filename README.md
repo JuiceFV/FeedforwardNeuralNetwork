@@ -20,4 +20,4 @@ Simple Feedforward Neural Network with Backpropagation Algorithm
 - [Activation Function (ELU) and Derivative + Gradient + Bayes](http://image-net.org/challenges/posters/JKU_EN_RGB_Schwarz_poster.pdf)
 
 # TODO
-- Delete comments in the code and add description in README
+- Delete comments in the code and add a description in README
