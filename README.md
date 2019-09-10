@@ -3,13 +3,14 @@ Simple Feedforward Neural Network with Backpropagation Algorithm
 # Instalation 
 - Before Instalation [download](https://cmake.org/download/) CMake
 + Install:
-> git clone  https://github.com/JuiceFV/FeedforwardNeuralNetwork.git [dir name]
-> cd [dir name]
-> cd Feedforward_NeuralNetwork
-> mkdir build
-> cd build
-> cmake -g [your IDE (cmake --help)] ~/[dir name PATH]/[dir name]
-
+```
+ git clone  https://github.com/JuiceFV/FeedforwardNeuralNetwork.git [dir name]
+ cd [dir name]
+ cd Feedforward_NeuralNetwork
+ mkdir build
+ cd build
+ cmake -g [your IDE (cmake --help)] ~/[dir name PATH]/[dir name]
+```
 # Theory
 - [Feed Forward Neural Network - wiki](https://en.wikipedia.org/wiki/Feedforward_neural_network)
 - [Feed Forward Neural Network](https://towardsdatascience.com/deep-learning-feedforward-neural-network-26a6705dbdc7)
